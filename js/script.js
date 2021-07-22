@@ -61,16 +61,6 @@ const calendar = () => {
 		days += `<div class="next_day">${y}</div>`;
 		dayMonth.innerHTML = days;
 	}
-
-	// document.querySelector('.add_task').addEventListener('click', () => {
-	// 	const i1 = document.querySelector('.i1').value;
-	// 	document.querySelector('.text_task').innerHTML = i1;
-	// });
-
-	// document.querySelector('.del_task').addEventListener('click', () => {
-	// 	const i1 = document.querySelector('.i1').value;
-	// 	document.querySelector('.text_task').innerHTML = '';
-	// });
 }
 calendar();
 
